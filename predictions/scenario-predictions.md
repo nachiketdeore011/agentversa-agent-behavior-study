@@ -60,3 +60,7 @@ The agent may become too procedural in a scenario that requires decisive action 
 ## Additional Notes
 
 These predictions are intentionally based on the design specification and should be documented before episode review. Prediction quality is measured by how well the agent's actual behavior aligns with the original design, not by whether it appears more persuasive or dramatic.
+
+## Scenario 3 research-status note
+
+The original Scenario 3 prediction above is retained unchanged as the pre-scenario record. The available Rivergate packet describes procedural constraints and evidence inventory, but does not include an Episode 3 simulation transcript or observed agent response. It therefore does not support replacing the prediction with an observed outcome. See `scenario-observations/scenario-03.md` for the evidence boundary and analytical hypotheses.

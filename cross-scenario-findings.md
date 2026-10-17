@@ -78,3 +78,7 @@ The Version 1 agent behaved as a cautious, evidence-centric risk evaluator. Its 
 The major design trade-off is that its caution can become delay, hesitation, or over-escalation in scenarios that require rapid judgment. The most important cross-scenario insight is that the agent's reliability depends strongly on the structure of the scenario: it performs most convincingly when uncertainty is visible, role boundaries are clear, and evidence can be evaluated openly.
 
 This conclusion supports a Version 2 proposal that preserves the agent's evidence-first values while improving its adaptive decision speed and coordination quality in more dynamic situations.
+
+## Episode 3 qualification
+
+The Rivergate disclosure packet introduces a useful future test of resource-aware, evidence-first decision-making: a known 12-page review limit competes with separate personal-data redaction work, while confidentiality and witness-safety questions require external authorization. No Episode 3 agent transcript or outcome is included here. It would therefore be unsupported to treat the packet or a dashboard recommendation as confirmation of any cross-scenario behavioral pattern. At most, it identifies a future test of whether the Version 1 agent can offer a bounded recommendation without treating unverified claims or unseen content as established facts.
