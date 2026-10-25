@@ -57,7 +57,7 @@ The displayed recommendations show broad concern for accessibility and procedura
 
 ## What remained unresolved
 
-Several issues remained unresolved in the scenario record. The inquiry did not establish tomorrow’s participant availability, the accessible-room arrangements, or the interpreter’s next-day availability. It also did not establish a complete written-submissions plan for participants who needed help preparing submissions. The four urgent applicants remained separate operational concerns, and the service backlog remained unresolved. In addition, the recommendations did not decide whether a limited administrative session could proceed without creating a perception of procedural prejudice. These unresolved matters matter because a protective option is not the same as a confirmed implementation plan.
+Several issues remained unresolved in the scenario record. The inquiry did not establish tomorrow’s participant availability or the interpreter’s next-day availability. The record states that an accessible room can be obtained tomorrow. However, next-day availability of the interpreter and all necessary participants remains unconfirmed. Therefore, postponement or a staged arrangement is conditional, not a guaranteed full-participation solution. The inquiry also did not establish a full written-submissions plan for participants needing help preparing submissions. The four urgent applicants remained separate operational concerns, and the service backlog remained unresolved.
 
 ## Alternative explanations and limitations
 
