@@ -82,3 +82,7 @@ This conclusion supports a Version 2 proposal that preserves the agent's evidenc
 ## Episode 3 qualification
 
 The Rivergate disclosure packet introduces a useful future test of resource-aware, evidence-first decision-making: a known 12-page review limit competes with separate personal-data redaction work, while confidentiality and witness-safety questions require external authorization. No Episode 3 agent transcript or outcome is included here. It would therefore be unsupported to treat the packet or a dashboard recommendation as confirmation of any cross-scenario behavioral pattern. At most, it identifies a future test of whether the Version 1 agent can offer a bounded recommendation without treating unverified claims or unseen content as established facts.
+
+## Scenario 4 qualification
+
+Scenario 4 provides evidence of accessibility- and timing-sensitive procedural constraints. Most agents proposed postponement, while Themis-JDS and Nemesis consistently proposed a staged option. CivicLens produced inconsistent outputs across its decision record and other displayed material. The record does not establish consensus, a final panel decision, a completed hearing, or a stable cross-scenario behavioral pattern.

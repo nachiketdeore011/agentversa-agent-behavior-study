@@ -64,3 +64,7 @@ These predictions are intentionally based on the design specification and should
 ## Scenario 3 research-status note
 
 The original Scenario 3 prediction above is retained unchanged as the pre-scenario record. The available Rivergate packet describes procedural constraints and evidence inventory, but does not include an Episode 3 simulation transcript or observed agent response. It therefore does not support replacing the prediction with an observed outcome. See `scenario-observations/scenario-03.md` for the evidence boundary and analytical hypotheses.
+
+## Scenario 4 research-status note
+
+No pre-scenario prediction was recorded for Scenario 4. The Scenario 4 report therefore uses a disclosure rather than presenting a retrospective prediction as if it had been made before the episode. See `scenario-observations/scenario-04.md`.
