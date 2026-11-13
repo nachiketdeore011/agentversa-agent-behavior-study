@@ -61,4 +61,12 @@ describe('K17 evidence review', () => {
       expect(wrapper.text()).toContain(option.status)
     }
   })
+
+  it('opens the research dashboard with stored-data metrics and transparent empty evaluations', async () => {
+    await wrapper.find('.dashboard-toggle').trigger('click')
+    expect(wrapper.find('.research-dashboard').exists()).toBe(true)
+    expect(wrapper.find('.research-dashboard').text()).toContain('AgentVersa Research Analytics Dashboard')
+    expect(wrapper.find('.research-dashboard').text()).toContain('Not evaluated')
+    await wrapper.find('.dashboard-actions button').trigger('click')
+  })
 })

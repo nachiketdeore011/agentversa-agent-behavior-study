@@ -14,6 +14,14 @@ This work examines the behavior of AI agents in controlled scenarios, not in pro
 
 AI agents can reflect bias through prompt wording, role framing, or scenario structure. When an agent is designed with a specific risk posture or communication style, it may appear more cautious or more assertive depending on the surrounding instructions. This means the study should be careful not to overgeneralize from a single role design to broader claims about AI fairness or competence.
 
+### Evaluation Subjectivity and Human Oversight
+
+Behaviour scores are reviewer judgments against a proposed rubric, not objective measurements. Reviewers should preserve explanations, source references, disagreements, and status changes. Automated assessment, if introduced, must remain preliminary until human review. The dashboard is decision support; it cannot issue a binding legal, administrative, disclosure, or compliance decision.
+
+### Confidentiality and Local Storage
+
+The browser store is convenient for a single researcher but is not encrypted, access-controlled, or suitable for confidential witness, personal, or production records. Researchers should use redacted source references and avoid placing restricted material in the prototype. JSON exports inherit the sensitivity of the stored data and should be handled as research records.
+
 ## Study Limitations
 
 ### Scope Limitations
@@ -31,6 +39,14 @@ Even when scenario evidence is public, it may not represent the full set of unde
 ### LLM Variability and Prompt Sensitivity
 
 Large language model outputs can vary across model versions, prompt formulations, and modest changes in wording. A small difference in role description, scenario framing, or evidence ordering may affect behavior. Because of this, behavior should be treated as context-sensitive rather than universally stable.
+
+### Experimental and Statistical Limitations
+
+The repository does not currently contain a matched, repeated V1/V2 dataset or implemented inferential statistics. No confidence interval, significance claim, or superiority claim should be reported until sample size, pairing, model configuration, prompt version, and assumptions are documented. Descriptive summaries must remain distinct from causal or inferential conclusions.
+
+### Evidence and Claim Limitations
+
+An authentic source does not establish every claim derived from it. Unverified, disputed, contradictory, incomplete, or unavailable sources must remain visible. Missing observations, evidence mappings, and evaluations are data-quality limitations rather than zero scores.
 
 ## Important Simulation Constraints
 

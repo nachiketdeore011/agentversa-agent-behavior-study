@@ -1,7 +1,13 @@
 <script setup>
+import { ref } from 'vue'
 import EvidenceCard from './components/EvidenceCard.vue'
+import ResearchDashboard from './components/ResearchDashboard.vue'
 import SectionNav from './components/SectionNav.vue'
 import { caseData, navigation } from './data/case.js'
+import { loadResearchStore } from './research/store.js'
+
+const showDashboard = ref(false)
+const researchStore = ref(loadResearchStore())
 </script>
 
 <template>
@@ -12,10 +18,20 @@ import { caseData, navigation } from './data/case.js'
         <span class="wordmark__mark" aria-hidden="true">LV</span>
         <span>LegalVerse <span class="wordmark__muted">/ Evidence review</span></span>
       </a>
+      <button class="dashboard-toggle" type="button" @click="showDashboard = !showDashboard">
+        {{ showDashboard ? 'Open case review' : 'Open research dashboard' }}
+      </button>
       <span class="topbar__case">{{ caseData.caseId }}</span>
     </header>
 
-    <div class="workspace">
+    <ResearchDashboard
+      v-if="showDashboard"
+      :store="researchStore"
+      @update="researchStore = $event"
+      @back="showDashboard = false"
+    />
+
+    <div v-else class="workspace">
       <aside class="sidebar">
         <div class="sidebar__label">Review sections</div>
         <SectionNav :items="navigation" />

@@ -46,10 +46,52 @@ The repository tracks the agent through:
 - `agent-design/` — Version 1 agent design and Version 2 proposal
 - `predictions/` — scenario predictions made before observation
 - `scenario-observations/` — structured notes for each scenario
+- `AGENTVERSA_TECHNICAL_AUDIT.md` — implementation audit and architecture boundaries
+- `AGENTVERSA_EVALUATION_ENGINE.md` — proposed scoring dimensions, validation, and weighting
+- `AGENTVERSA_PREDICTION_OBSERVATION_SYSTEM.md` — prediction freezing and comparison rules
+- `AGENTVERSA_V1_V2_EXPERIMENTAL_FRAMEWORK.md` — paired experiment requirements
+- `AGENTVERSA_EVIDENCE_TRACEABILITY_SYSTEM.md` — evidence, claims, mappings, and audit rules
+- `AGENTVERSA_RESEARCH_ANALYTICS_DASHBOARD.md` — dashboard implementation and limitations
 - `cross-scenario-findings.md` — pattern analysis across episodes
 - `final-report.md` — primary academic-style report
 - `ethics-and-limitations.md` — methodological and ethical boundaries
 - `LICENSE-or-usage-note.md` — usage and attribution notes
+
+## Research platform
+
+The K17 Vue application includes an **Open research dashboard** action. It preserves the existing case-review view and adds:
+
+- stored-data overview metrics and scenario status,
+- eight-dimension evaluation summaries with transparent missing data,
+- prediction/observation comparison classifications,
+- V1/V2 experiment and evidence/claim registry foundations,
+- progress tracking and JSON export.
+
+The browser store is seeded only from repository documents that already exist. Evaluations, experiments, evidence records, claims, mappings, and comparisons are empty until a researcher records them. This is intentional: the dashboard does not fabricate scores, agent responses, evidence, or experimental results.
+
+### Run the applications
+
+```powershell
+Set-Location legalverse-k17-analysis
+npm install
+npm run dev
+```
+
+The second case-review application is run independently:
+
+```powershell
+Set-Location legalverse-episode-3-disclosure
+npm install
+npm run dev
+```
+
+### Test and build
+
+Run `npm test` and `npm run build` in each application. The new research model tests cover weighted scoring, missing dimensions, validation, comparison classification, and frozen prediction preservation.
+
+### Known limitations
+
+The dashboard is a local-storage prototype for a single researcher. It does not provide authentication, shared multi-user editing, server-side audit durability, statistical tests, or automated claim verification. Version 2 remains a proposal and no V1/V2 superiority claim is made.
 
 ## Important Disclaimer
 
