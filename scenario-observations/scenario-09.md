@@ -60,6 +60,10 @@ The complete Agent Decisions and Agent Discussions tabs, supplied after the init
 
 The supplied Private Reflections tab provides structured, displayed reflections for all ten agents. These are recorded as visible platform text, not treated as hidden chain-of-thought reasoning.
 
+**Lexora — selected platform agent:** The user-provided profile identifies Lexora as the selected, locked Season 5 research agent, with the role Legal Aid and Access Agent and 10 of 10 scenarios completed. Its displayed recommendation is a temporary 30-minute export-endpoint restriction. The reflection cites the unrecognized repeated export requests, the 12 scheduled appointments (including three urgent needs), possible scheduled-report disruption, continued application-intake availability, and coordination with engineering. It records human review as “Not requested.” This evidence is attributed to Lexora only; it does not establish actual behavior by the repository's differently defined Agent Versa Risk Analyst.
+
+
+
 | Agent | Stated rationale and trade-off in the displayed reflection | Human review field |
 |---|---|---|
 | Aegis | Prioritizes urgent applicants and uninterrupted service; acknowledges that monitoring may not fully mitigate risk and that an unconfirmed event could continue. It says a 30-minute restriction could disrupt “those services,” although the packet's technical estimate says intake remains available and scheduled reports are interrupted by the endpoint restriction. | Not requested |
@@ -89,11 +93,20 @@ The supplied discussion messages state each agent's proposed position, but do no
 
 The supplied Current Relationship State table is expressly cumulative across the season, not episode-specific. It reports Sentinel → CivicLens with trust 3, threat 0, and cooperation 0; CivicLens → Themis-JDS with all three values 0; and Nemesis → Themis-JDS with all three values 0. The accompanying reasons refer to a possible benefit from a transparency/accuracy-aligned revision or to no previous interaction/no relationship change. These values cannot be attributed as changes caused by this episode and do not establish episode-specific cooperation or conflict.
 
-## Actual Agent Versa Risk Analyst participation
+## Selected platform agent identity and participation
 
-The supplied episode roster names Aegis, CivicLens, EquiGuard, Evidentia, Lexora, Nemesis, NyayaSetu, Raksha, Sentinel, and Themis-JDS. It does not list an agent named **Agent Versa Risk Analyst**. The visible timeline also contains no recommendation attributed to that name.
+The user's supplied **My Selected Agents** profile record identifies **Lexora** as the selected agent preserved for the Season 5 research study. The displayed role is **Legal Aid and Access Agent**, the selection is locked for research, and the profile shows **10 of 10 scenarios completed**.
 
-Accordingly, the supplied report does not establish the actual response of the frozen Version 1 Agent Versa Risk Analyst. The episode-wide result can be compared with the prediction as contextual evidence, but it cannot be scored as a confirmed individual-agent match or mismatch.
+Lexora is listed among the ten participants in Episode 9. Its discussion and decision records show a recommendation for a temporary 30-minute restriction on the export endpoint. Its displayed private reflection states that the proposal sought to balance the recent alert with essential service access, acknowledged interruption to scheduled reports, and noted the need for coordination with engineering and human decision-making. The reflection's Human review field is marked “Not requested.” This is a displayed platform field, not proof that no human authority was needed; the scenario rules reserve binding decisions for the human panel.
+
+The selected profile and the repository's frozen research design do not currently identify the same agent:
+
+- **Selected platform agent:** Lexora — Legal Aid and Access Agent.
+- **Repository Version 1 baseline:** Agent Versa Risk Analyst — Risk Analyst / Compliance and Evidence Reviewer.
+
+The stored Scenario 9 pre-simulation prediction was written for Agent Versa Risk Analyst, not Lexora. Therefore, Lexora's observed recommendation is valid evidence about the user's selected platform agent, but it must not be scored as a prediction match or mismatch for the Risk Analyst baseline. The group-level episode split remains contextual evidence only for that original prediction.
+
+This identity discrepancy should be resolved before future pre-simulation predictions are written. The frozen Version 1 design and the original prediction have not been changed in this observation update.
 
 ## Comparison with the pre-simulation prediction
 
