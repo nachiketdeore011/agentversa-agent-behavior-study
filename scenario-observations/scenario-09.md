@@ -116,18 +116,12 @@ Accordingly, the supplied report does not establish the actual response of the f
 
 At the group level, the result is a partial correspondence with the predicted option: a substantial minority—five of ten agents—supported the targeted restriction. It was not the majority position, and the agents reached no consensus. This does not validate or invalidate the predicted behavior of Agent Versa Risk Analyst because its individual participation is not identified.
 
-## Cooperation, disagreement, and influence
-
-The episode establishes a clear disagreement between two recommendation groups: restriction of the export endpoint for 30 minutes versus monitoring without interrupting scheduled reports. The report says there was no consensus and describes rising tension between data-integrity protection and service accessibility.
-
-The supplied material does not provide enough discussion detail to determine which agents persuaded or influenced others, whether any agent changed its position, or whether the disagreement involved substantive evidence disputes rather than differing priorities. Do not infer cooperation, conflict intensity, or influence from the split alone.
-
 ## Unexpected developments
 
 - The episode ended without a selected operational response; the cliffhanger asks what response will be chosen.
 - The report states that both options would preserve application intake, narrowing the immediate service-continuity difference between the two choices.
 - The recommendation split was exactly even, rather than producing a majority preference.
-- The visible timeline's Themis-JDS entry is less specific than the episode summary's aggregate five-to-five count.
+- The full Agent Decisions and Agent Discussions tabs resolve the shorter timeline's ambiguous Themis-JDS entry: Themis-JDS explicitly supports the 30-minute export-endpoint restriction.
 
 ## Outcomes and lessons learned
 
